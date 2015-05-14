@@ -1,0 +1,136 @@
+{
+    "project": {
+        "name": "JK.js",
+        "description": "The JK.js library: a series of functions that pop up every now and then.",
+        "version": "0.0.1",
+        "url": "http://github.com/jkrrv/jk-js"
+    },
+    "files": {
+        "jk.js": {
+            "name": "jk.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {},
+    "classitems": [
+        {
+            "file": "jk.js",
+            "line": 19,
+            "description": "The Sine Function for an angle in degrees.",
+            "itemtype": "method",
+            "name": "sind",
+            "params": [
+                {
+                    "name": "deg",
+                    "description": "An angle in degrees.",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "The result of the Sine",
+                "type": "Number"
+            },
+            "class": ""
+        },
+        {
+            "file": "jk.js",
+            "line": 31,
+            "description": "The Cosine Function for an angle in degrees.",
+            "itemtype": "method",
+            "name": "cosd",
+            "params": [
+                {
+                    "name": "deg",
+                    "description": "An angle in degrees.",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "The result of the Cosine",
+                "type": "Number"
+            },
+            "class": ""
+        },
+        {
+            "file": "jk.js",
+            "line": 43,
+            "description": "The Tangent Function for an angle in degrees.",
+            "itemtype": "method",
+            "name": "tand",
+            "params": [
+                {
+                    "name": "deg",
+                    "description": "An angle in degrees.",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "The result of the Tangent",
+                "type": "Number"
+            },
+            "class": ""
+        },
+        {
+            "file": "jk.js",
+            "line": 56,
+            "description": "The minVal function.  Given an array of objects, this function returns the minimum value of the desired property, as\ndirected by the iteratee.",
+            "params": [
+                {
+                    "name": "arrayOfObjects",
+                    "description": "An array of objects that have properties",
+                    "type": "Array"
+                },
+                {
+                    "name": "iteratee",
+                    "description": "A function that returns the value for each function of which the minimum is desired.",
+                    "type": "Function"
+                }
+            ],
+            "class": ""
+        },
+        {
+            "file": "jk.js",
+            "line": 72,
+            "description": "The maxVal function.  Given an array of objects, this function returns the maximum value of the desired property, as\ndirected by the iteratee.",
+            "params": [
+                {
+                    "name": "arrayOfObjects",
+                    "description": "An array of objects that have properties",
+                    "type": "Array"
+                },
+                {
+                    "name": "iteratee",
+                    "description": "A function that returns the value for each function of which the maximum is desired.",
+                    "type": "Function"
+                }
+            ],
+            "class": ""
+        }
+    ],
+    "warnings": [
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " jk.js:19"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " jk.js:31"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " jk.js:43"
+        },
+        {
+            "message": "Missing item type\nThe minVal function.  Given an array of objects, this function returns the minimum value of the desired property, as\ndirected by the iteratee.",
+            "line": " jk.js:56"
+        },
+        {
+            "message": "Missing item type\nThe maxVal function.  Given an array of objects, this function returns the maximum value of the desired property, as\ndirected by the iteratee.",
+            "line": " jk.js:72"
+        }
+    ]
+}
