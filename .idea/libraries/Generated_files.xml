@@ -1,0 +1,41 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/docs/assets/js/apidocs.min.js" />
+        <item url="file://$PROJECT_DIR$/docs/api.min.js" />
+        <item url="file://$PROJECT_DIR$/docs/assets/js/api-filter.min.js" />
+        <item url="file://$PROJECT_DIR$/docs/assets/js/api-list.min.js" />
+        <item url="file://$PROJECT_DIR$/docs/assets/js/yui-prettify.min.js" />
+        <item url="file://$PROJECT_DIR$/docs/assets/js/api-search.min.js" />
+        <item url="file://$PROJECT_DIR$/docs/assets/vendor/prettify/prettify-min.min.js" />
+        <item url="file://$PROJECT_DIR$/jk.min.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/out/api.min.js" />
+      <root url="file://$PROJECT_DIR$/out/api.min.js" />
+      <root url="file://$PROJECT_DIR$/out/assets/js/apidocs.min.js" />
+      <root url="file://$PROJECT_DIR$/out/assets/js/yui-prettify.min.js" />
+      <root url="file://$PROJECT_DIR$/out/assets/js/api-filter.min.js" />
+      <root url="file://$PROJECT_DIR$/out/assets/js/api-search.min.js" />
+      <root url="file://$PROJECT_DIR$/out/assets/js/api-list.min.js" />
+      <root url="file://$PROJECT_DIR$/out/assets/vendor/prettify/prettify-min.min.js" />
+      <root url="file://$PROJECT_DIR$/out/assets/js/apidocs.min.js" />
+      <root url="file://$PROJECT_DIR$/out/assets/js/yui-prettify.min.js" />
+      <root url="file://$PROJECT_DIR$/out/assets/js/api-filter.min.js" />
+      <root url="file://$PROJECT_DIR$/out/assets/js/api-search.min.js" />
+      <root url="file://$PROJECT_DIR$/out/assets/js/api-list.min.js" />
+      <root url="file://$PROJECT_DIR$/out/assets/vendor/prettify/prettify-min.min.js" />
+      <root url="file://$PROJECT_DIR$/docs/assets/js/apidocs.min.js" />
+      <root url="file://$PROJECT_DIR$/docs/api.min.js" />
+      <root url="file://$PROJECT_DIR$/docs/assets/js/api-filter.min.js" />
+      <root url="file://$PROJECT_DIR$/docs/assets/js/api-list.min.js" />
+      <root url="file://$PROJECT_DIR$/docs/assets/js/yui-prettify.min.js" />
+      <root url="file://$PROJECT_DIR$/docs/assets/js/api-search.min.js" />
+      <root url="file://$PROJECT_DIR$/docs/assets/vendor/prettify/prettify-min.min.js" />
+      <root url="file://$PROJECT_DIR$/jk.min.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
