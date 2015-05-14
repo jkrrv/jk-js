@@ -4,6 +4,6 @@
   "version": "0.0.1",
   "url": "http://github.com/jkrrv/jk-js",
   "options": {
-    "outdir": "./docs/"
+    "outdir": "./docs/docs/"
   }
 }
