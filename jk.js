@@ -11,7 +11,7 @@
     };
 
 
-    jk.VERSION = "0.0.1";
+    jk.VERSION = "0.0.2";
 
 
 
@@ -65,7 +65,7 @@
         arrayOfObjects.forEach(function(obj) {
             ret.push(iteratee(obj));
         });
-        return _.min(ret);
+        return Math.min.apply(null, ret);
     };
 
 
@@ -81,7 +81,7 @@
         arrayOfObjects.forEach(function(obj) {
             ret.push(iteratee(obj));
         });
-        return _.max(ret);
+        return Math.max.apply(null, ret);
     };
 
 

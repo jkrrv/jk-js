@@ -1,7 +1,7 @@
 {
   "name": "JK.js",
   "description": "The JK.js library: a series of functions that pop up every now and then.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "url": "http://github.com/jkrrv/jk-js",
   "options": {
     "outdir": "./docs/docs/"
