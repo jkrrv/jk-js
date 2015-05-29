@@ -86,6 +86,24 @@
 
 
 
+    /**
+     * The arrayHas function.  Given an array of objects, this function returns whether the iteratee returns true for
+     * any of the member objects.
+     *
+     * @param {Array} arrayOfObjects  An array of objects that have properties
+     * @param {function} iteratee  A function that returns the value for each function of which the maximum is desired.
+     */
+    jk.arrayHas = function(arrayOfObjects, iteratee) {
+        arrayOfObjects.forEach(function(obj) {
+            if (!!iteratee(obj)) {
+                return true;
+            }
+        });
+        return false;
+    };
+
+
+
     if (typeof define === 'function' && define.amd) {
         define('jk', [], function() {
             return jk;
