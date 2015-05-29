@@ -1,17 +1,20 @@
 (function() {
-    var ArrayProto = Array.prototype,
-        ObjProto = Object.prototype,
-        FuncProto = Function.prototype;
+    /* global define */
+    "use strict";
 
 
     var jk = function(obj) {
-        if (obj instanceof jk) return obj;
-        if (!(this instanceof jk)) return new jk(obj);
+        if (obj instanceof jk) {
+            return obj;
+        }
+        if (!(this instanceof jk)) {
+            return new jk(obj);
+        }
         this._wrapped = obj;
     };
 
 
-    jk.VERSION = "0.0.2";
+    jk.VERSION = "0.0.";
 
 
 
@@ -48,7 +51,6 @@
      * @returns {number} The result of the Tangent
      */
     jk.tand = function(deg) {
-        "use strict";
         return Math.tan(Math.PI * deg / 180.0);
     };
 
@@ -116,7 +118,7 @@
             var sum = 0;
             arr.forEach(function (value) {
                 if (typeof value === "object") {
-                    value = compute(value)
+                    value = compute(value);
                 }
                 sum += value;
             });
