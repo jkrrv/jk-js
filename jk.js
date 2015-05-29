@@ -96,11 +96,11 @@
      * @param {function} iteratee  A function that returns the value for each function of which the maximum is desired.
      */
     jk.arrayHas = function(arrayOfObjects, iteratee) {
-        arrayOfObjects.forEach(function(obj) {
-            if (!!iteratee(obj)) {
+        for (var i = 0; i < arrayOfObjects.length; i++) {
+            if (!!iteratee(arrayOfObjects[i])) {
                 return true;
             }
-        });
+        }
         return false;
     };
 
