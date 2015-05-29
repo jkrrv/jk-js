@@ -103,6 +103,30 @@
     };
 
 
+    /**
+     * The average function takes the average of it's arguments.  If provided with arrays as arguments, acts
+     * *recursively*.
+     *
+     * @example jk.avg([2,2],6); // --> 4 (not 3. ((2 + 2)/2 + 6) / 2)
+     *
+     * @returns {number}
+     */
+    jk.avg = function() {
+        function compute(arr) { // nested function statement allows for recursion.
+            var sum = 0;
+            arr.forEach(function (value) {
+                if (typeof value === "object") {
+                    value = compute(value)
+                }
+                sum += value;
+            });
+            return sum/arr.length;
+        }
+
+        return compute(arguments);
+    };
+
+
 
     if (typeof define === 'function' && define.amd) {
         define('jk', [], function() {
